@@ -73,12 +73,12 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Control:
-        m_Texture: {fileID: 6630615366517593873, guid: 2c138ae128e7ea447bb961d91cb88cf8,
+        m_Texture: {fileID: -6272111813673947814, guid: 4097192f568101c478717da5be288581,
           type: 2}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Control1:
-        m_Texture: {fileID: -1311666104200274878, guid: 2c138ae128e7ea447bb961d91cb88cf8,
+        m_Texture: {fileID: 847939675958245196, guid: 4097192f568101c478717da5be288581,
           type: 2}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -127,19 +127,19 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Mask4:
-        m_Texture: {fileID: 2800000, guid: 1a60b6b5c9c0be9429b225b3393b679f, type: 3}
+        m_Texture: {fileID: 2800000, guid: 2d194d4481ddfe34782b02aff2a8e088, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Mask5:
-        m_Texture: {fileID: 2800000, guid: c2494d2875f12834e8de7d571d2c392b, type: 3}
+        m_Texture: {fileID: 2800000, guid: 1a60b6b5c9c0be9429b225b3393b679f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Mask6:
-        m_Texture: {fileID: 2800000, guid: 8617fa89b1bc21848a40ac71da38e1a2, type: 3}
+        m_Texture: {fileID: 2800000, guid: c2494d2875f12834e8de7d571d2c392b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Mask7:
-        m_Texture: {fileID: 2800000, guid: 34bf05bfe8853be4680279c4d34151b9, type: 3}
+        m_Texture: {fileID: 2800000, guid: 8617fa89b1bc21848a40ac71da38e1a2, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MaskMap:
@@ -163,19 +163,19 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Normal4:
-        m_Texture: {fileID: 2800000, guid: 34a29fa29082ea341a33af6924a13331, type: 3}
+        m_Texture: {fileID: 2800000, guid: 5c66c9b87ad5ccb43838063a3150dfb8, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Normal5:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 34a29fa29082ea341a33af6924a13331, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Normal6:
-        m_Texture: {fileID: 2800000, guid: 74822734365e02e41914e0c38ec8ab72, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Normal7:
-        m_Texture: {fileID: 2800000, guid: eff210ae5f93a374c8ad0c4b84ae2bb4, type: 3}
+        m_Texture: {fileID: 2800000, guid: 74822734365e02e41914e0c38ec8ab72, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalMap:
@@ -207,19 +207,19 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Splat4:
-        m_Texture: {fileID: 2800000, guid: 7c96930dc56f2e144a9dfe8992596a72, type: 3}
+        m_Texture: {fileID: 2800000, guid: 90a864737c56bb34db2dae2d4a56726c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Splat5:
-        m_Texture: {fileID: 2800000, guid: 3a8259aa3ab9056439157d91d05fbe99, type: 3}
+        m_Texture: {fileID: 2800000, guid: 7c96930dc56f2e144a9dfe8992596a72, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Splat6:
-        m_Texture: {fileID: 2800000, guid: f1f70c2ed28bed048bfa4431e0e778c3, type: 3}
+        m_Texture: {fileID: 2800000, guid: 3a8259aa3ab9056439157d91d05fbe99, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Splat7:
-        m_Texture: {fileID: 2800000, guid: 7b26a4fba1e43204e8e823fe35a997a1, type: 3}
+        m_Texture: {fileID: 2800000, guid: f1f70c2ed28bed048bfa4431e0e778c3, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SubsurfaceMaskMap:
@@ -323,7 +323,7 @@ Material:
     - _DisplacementLockObjectScale: 1
     - _DisplacementLockTilingScale: 1
     - _DisplacementMode: 0
-    - _Distance_HeightTransition: 11.6
+    - _Distance_HeightTransition: 20
     - _DoubleSidedEnable: 1
     - _DoubleSidedGIMode: 0
     - _DoubleSidedNormalMode: 1
@@ -340,8 +340,8 @@ Material:
     - _ExcludeFromTUAndAA: 0
     - _Gamma: 0
     - _GlobalSmoothnessDisabled: 0
-    - _HT_cover: 0.593
-    - _HT_distance_scale: 0.227
+    - _HT_cover: 0.75
+    - _HT_distance_scale: 0.25
     - _HasDetailAlbedo: 0
     - _HasMask: 1
     - _HeightAmplitude: 0.02
@@ -353,7 +353,7 @@ Material:
     - _HeightPoMAmplitude: 2
     - _HeightTessAmplitude: 2
     - _HeightTessCenter: 0.5
-    - _HeightTransition: 6.4
+    - _HeightTransition: 55
     - _HeightmapBlending: 1
     - _InvTilingScale: 1
     - _Ior: 1.5
@@ -392,8 +392,8 @@ Material:
     - _ParallaxAffineStepsTerrain: 3
     - _ParallaxHeight: 0
     - _ParallaxSteps: 1
-    - _ParallaxTrackAffineSteps: 3
-    - _ParallaxTrackSteps: 5
+    - _ParallaxTrackAffineSteps: 0
+    - _ParallaxTrackSteps: 0
     - _PassNumber: 0
     - _RayTracing: 0
     - _ReceivesSSR: 1
@@ -432,13 +432,13 @@ Material:
     - _TexWorldScaleEmissive: 1
     - _Thickness: 1
     - _TrackAO: 0.8
-    - _TrackDetailNormalStrenght: 1
+    - _TrackDetailNormalStrenght: 0
     - _TrackDetailStrenght: 0
     - _TrackEdgeNormals: 2
     - _TrackEdgeSharpness: 1
     - _TrackHeightOffset: 0
     - _TrackHeightTransition: 20
-    - _TrackNormalStrenght: 1
+    - _TrackNormalStrenght: 0
     - _TrackTessallationHeightOffset: 0
     - _TrackTessallationHeightTransition: 0
     - _Tracks: 0
@@ -471,24 +471,24 @@ Material:
     - _DiffuseRemapOffset1: {r: 0, g: 0, b: 0, a: 15}
     - _DiffuseRemapOffset2: {r: 0, g: 0, b: 0, a: 0}
     - _DiffuseRemapOffset3: {r: 0, g: 0, b: -0.02, a: 0}
-    - _DiffuseRemapOffset4: {r: 0, g: 0, b: 0, a: 0}
-    - _DiffuseRemapOffset5: {r: 0, g: 0, b: -0.09999999, a: 0}
-    - _DiffuseRemapOffset6: {r: 0, g: 0, b: 0, a: 0}
-    - _DiffuseRemapOffset7: {r: 0, g: 0, b: 0.01, a: 0}
+    - _DiffuseRemapOffset4: {r: 0, g: 0, b: 0.01, a: 0}
+    - _DiffuseRemapOffset5: {r: 0, g: 0, b: -0.0176, a: 0}
+    - _DiffuseRemapOffset6: {r: 0, g: 0, b: -0.09999999, a: 0}
+    - _DiffuseRemapOffset7: {r: 0, g: 0, b: 0, a: 0}
     - _DiffuseRemapScale0: {r: 1, g: 1, b: 1, a: 2}
     - _DiffuseRemapScale1: {r: 0.8113208, g: 0.8074938, b: 0.8074938, a: 8}
     - _DiffuseRemapScale2: {r: 1, g: 1, b: 1, a: 10}
     - _DiffuseRemapScale3: {r: 1, g: 1, b: 1, a: 2}
-    - _DiffuseRemapScale4: {r: 1, g: 1, b: 1, a: 9.52}
-    - _DiffuseRemapScale5: {r: 1, g: 1, b: 1, a: 0}
-    - _DiffuseRemapScale6: {r: 1, g: 1, b: 1, a: 12.26}
-    - _DiffuseRemapScale7: {r: 1, g: 1, b: 1, a: 50}
+    - _DiffuseRemapScale4: {r: 1, g: 1, b: 1, a: 2}
+    - _DiffuseRemapScale5: {r: 1, g: 1, b: 1, a: 9.52}
+    - _DiffuseRemapScale6: {r: 1, g: 1, b: 1, a: 0}
+    - _DiffuseRemapScale7: {r: 1, g: 1, b: 1, a: 12.26}
     - _DiffusionProfileAsset: {r: 0, g: 0, b: 0, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _EmissiveColor: {r: 0, g: 0, b: 0, a: 1}
     - _EmissiveColorLDR: {r: 0, g: 0, b: 0, a: 1}
-    - _HT_distance: {r: 3, g: 13.960396, b: 0, a: 25}
+    - _HT_distance: {r: 3, g: 10, b: 0, a: 25}
     - _Intersection: {r: -0.8686636, g: 0.6000001, b: -2, a: 2}
     - _Intersection2: {r: 0.3, g: 0.6, b: 0, a: 1}
     - _InvPrimScale: {r: 1, g: 1, b: 0, a: 0}
@@ -501,16 +501,16 @@ Material:
     - _MaskMapRemapOffset3: {r: 0, g: 0, b: 0, a: -1}
     - _MaskMapRemapOffset4: {r: 0, g: 0, b: 0, a: 0}
     - _MaskMapRemapOffset5: {r: 0, g: 0, b: 0, a: 0}
-    - _MaskMapRemapOffset6: {r: 0, g: 0, b: 0, a: -1}
+    - _MaskMapRemapOffset6: {r: 0, g: 0, b: 0, a: 0}
     - _MaskMapRemapOffset7: {r: 0, g: 0, b: 0, a: -1}
     - _MaskMapRemapScale: {r: 1, g: 1, b: 0.7393617, a: 1}
     - _MaskMapRemapScale0: {r: 1, g: 1, b: 1, a: 2}
-    - _MaskMapRemapScale1: {r: 1, g: 1, b: 1, a: 1}
+    - _MaskMapRemapScale1: {r: 1, g: 1, b: 1, a: 0.5}
     - _MaskMapRemapScale2: {r: 1, g: 1, b: 1, a: 1.8}
     - _MaskMapRemapScale3: {r: 1, g: 1, b: 1, a: 2}
     - _MaskMapRemapScale4: {r: 1, g: 1, b: 1, a: 1}
     - _MaskMapRemapScale5: {r: 1, g: 1, b: 1, a: 1}
-    - _MaskMapRemapScale6: {r: 1, g: 1, b: 1, a: 1.8}
+    - _MaskMapRemapScale6: {r: 1, g: 1, b: 1, a: 1}
     - _MaskMapRemapScale7: {r: 1, g: 1, b: 1, a: 1.8}
     - _MipMapFade: {r: 5, g: 20, b: -5, a: 35}
     - _NormIntersect: {r: 0, g: 0.6, b: 0, a: 1}
@@ -527,20 +527,20 @@ Material:
     - _SplatUV1: {r: 2, g: 2, b: 0, a: 0}
     - _SplatUV2: {r: 5, g: 5, b: 0, a: 0}
     - _SplatUV3: {r: 2, g: 2, b: 0, a: 0}
-    - _SplatUV4: {r: 4, g: 4, b: 0, a: 0}
-    - _SplatUV5: {r: 0, g: 1000, b: 0, a: 0}
-    - _SplatUV6: {r: 3, g: 3, b: 0, a: 0}
-    - _SplatUV7: {r: 6, g: 6, b: 0, a: 0}
-    - _TerrainHeightmapScale: {r: 0.9765625, g: 640.0293, b: 0.9765625, a: 320}
+    - _SplatUV4: {r: 0.8, g: 0.8, b: 0, a: 0}
+    - _SplatUV5: {r: 4, g: 4, b: 0, a: 0}
+    - _SplatUV6: {r: 0, g: 1000, b: 0, a: 0}
+    - _SplatUV7: {r: 3, g: 3, b: 0, a: 0}
+    - _TerrainHeightmapScale: {r: 0.9765625, g: 300.01373, b: 0.9765625, a: 150}
     - _TerrainMetallic: {r: 0, g: 0, b: 0, a: 0}
     - _TerrainMetallic1: {r: 0, g: 0, b: 0, a: 0}
     - _TerrainNormalScale: {r: 1, g: 0.8, b: 1, a: 1}
     - _TerrainNormalScale1: {r: 1, g: 1, b: 1, a: 1}
-    - _TerrainNormalTintDistance: {r: 3, g: 10, b: 0, a: 25}
-    - _TerrainPosition: {r: -701, g: 0, b: -633, a: 0}
-    - _TerrainSize: {r: 1000, g: 320, b: 1000, a: 0}
+    - _TerrainNormalTintDistance: {r: 0, g: 0, b: 0, a: 0}
+    - _TerrainPosition: {r: -500, g: -97, b: -500, a: 0}
+    - _TerrainSize: {r: 1000, g: 150, b: 1000, a: 0}
     - _TerrainSmoothness: {r: 0, g: 0, b: 0, a: 0}
-    - _TerrainSmoothness1: {r: 0.087, g: 1, b: 0, a: 0}
+    - _TerrainSmoothness1: {r: 0, g: 0.087, b: 1, a: 0}
     - _ThicknessRemap: {r: 0, g: 1, b: 0, a: 0}
     - _TransmittanceColor: {r: 1, g: 1, b: 1, a: 1}
     - _UVDetailsMappingMask: {r: 1, g: 0, b: 0, a: 0}
