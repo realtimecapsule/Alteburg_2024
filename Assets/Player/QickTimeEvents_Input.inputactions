@@ -1,0 +1,34 @@
+{
+    "name": "QickTimeEvents_Input",
+    "maps": [
+        {
+            "name": "QuickTimeEvents",
+            "id": "fefed24d-8cc5-444e-8a46-3d5a21733871",
+            "actions": [
+                {
+                    "name": "Press F",
+                    "type": "Button",
+                    "id": "574fbf73-a9c0-4f9e-b087-dd20e41142aa",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "74b794ff-bd7d-4bb8-bbb7-46cdaee51cdb",
+                    "path": "<Keyboard>/f",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Press F",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
