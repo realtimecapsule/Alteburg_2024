@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.UI;
 
 public class CollectibleItem : MonoBehaviour
 {
@@ -46,8 +47,8 @@ public class CollectibleItem : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             canCollect = true;
-            collectCanvas.gameObject.SetActive(true);
-            
+            collectCanvas.transform.GetChild(0).gameObject.SetActive(true);
+
         }
     }
 
@@ -56,7 +57,7 @@ public class CollectibleItem : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             canCollect = false;
-            collectCanvas.gameObject.SetActive(false);
+            collectCanvas.transform.GetChild(0).gameObject.SetActive(false);
 
         }
     }
@@ -72,9 +73,18 @@ public class CollectibleItem : MonoBehaviour
             // Optional: Nachricht ausgeben
             Debug.Log($"Gegenstand {itemIndex} eingesammelt!");
 
+            
+            //Aktivert und deaktiviert die verschiedenen Canvas
+            collectCanvas.transform.GetChild(0).gameObject.SetActive(false);
+            collectCanvas.transform.GetChild(1).gameObject.SetActive(true);
+
+            //Image des gefundenden Items setzen
+            GameObject itemCollectedCAnvasObject = collectCanvas.transform.GetChild(1).gameObject;
+            itemCollectedCAnvasObject.transform.GetChild(1).GetComponent<Image>().sprite = inventoryManager.itemSlots[itemIndex].sprite;
+
+
             // Gegenstand aus der Welt entfernen
             gameObject.SetActive(false);
-            collectCanvas.gameObject.SetActive(false);
         }
     }
 }
