@@ -11,6 +11,7 @@ public class QuickTimeEvent : MonoBehaviour
 
     [SerializeField]
     private Image tasteImage;
+    public FillImage fillImage; //Das Image, mit dem ImageFill Skript für die QTE
     [SerializeField]
     private GameObject qteCanvas;
     [SerializeField]
@@ -22,11 +23,11 @@ public class QuickTimeEvent : MonoBehaviour
 
     public Sprite keySprite; // UI Bild der Taste
     public float timeLimit = 2f;  // Zeitlimit in Sekunden
-    public PlayableDirector timeline;  // Die Timeline für das QTE
+    
 
     public InputAction currentInputAction;  // Die dynamisch gesetzte Input Action
     
-    public FillImage fillImage;
+    
 
 
 
@@ -55,8 +56,6 @@ public class QuickTimeEvent : MonoBehaviour
         slowMotionOBJ = GameObject.Find("Slowmotion");
         
     }
-
-
 
 
     void Update()

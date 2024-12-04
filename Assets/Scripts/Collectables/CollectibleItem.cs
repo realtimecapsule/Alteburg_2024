@@ -48,7 +48,7 @@ public class CollectibleItem : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             canCollect = true;
-            collectCanvas.transform.GetChild(0).gameObject.SetActive(true);
+            collectCanvas.transform.GetChild(0).gameObject.SetActive(true); //Child(0) ist das Image für die Taste, die abgebildet wird, damit man es einsammeln kann
 
         }
     }
@@ -77,13 +77,13 @@ public class CollectibleItem : MonoBehaviour
             
             //Aktivert und deaktiviert die verschiedenen Canvas
             collectCanvas.transform.GetChild(0).gameObject.SetActive(false);
-            collectCanvas.transform.GetChild(1).gameObject.SetActive(true);
+            collectCanvas.transform.GetChild(1).gameObject.SetActive(true); //Child(1) ist das Objekt, dass den Hinweis zeigt, dass und welches Objekt man eingesammelt hat (Mit Animation zum ausfaden)
 
             //Image des gefundenden Items setzen
             GameObject itemCollectedCanvasIcon = collectCanvas.transform.GetChild(1).gameObject;
             itemCollectedCanvasIcon.transform.GetChild(1).GetComponent<Image>().sprite = inventoryManager.itemSlots[itemIndex].sprite;
 
-            // Gegenstand aus der Welt entfernen
+            // Item deaktivieren
             gameObject.SetActive(false);
         }
     }
