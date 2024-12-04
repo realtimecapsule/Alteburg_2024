@@ -3,11 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
+using TMPro;
 
 public class CollectibleItem : MonoBehaviour
 {
     public int itemIndex; // Index des Gegenstands im UI-Array
-
+    
     private bool canCollect;
 
     public InputAction currentInputAction;
@@ -79,13 +80,14 @@ public class CollectibleItem : MonoBehaviour
             collectCanvas.transform.GetChild(1).gameObject.SetActive(true);
 
             //Image des gefundenden Items setzen
-            GameObject itemCollectedCAnvasObject = collectCanvas.transform.GetChild(1).gameObject;
-            itemCollectedCAnvasObject.transform.GetChild(1).GetComponent<Image>().sprite = inventoryManager.itemSlots[itemIndex].sprite;
-
+            GameObject itemCollectedCanvasIcon = collectCanvas.transform.GetChild(1).gameObject;
+            itemCollectedCanvasIcon.transform.GetChild(1).GetComponent<Image>().sprite = inventoryManager.itemSlots[itemIndex].sprite;
 
             // Gegenstand aus der Welt entfernen
             gameObject.SetActive(false);
         }
     }
+
+    
 }
 

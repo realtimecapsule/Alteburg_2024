@@ -7,26 +7,28 @@ using UnityEngine.UI;
 
 public class QuickTimeEvent : MonoBehaviour
 {
-    public GameObject slowMotionOBJ;
-    public GameObject qteCanvas;
-    public GameObject boxVolume;
+    private GameObject slowMotionOBJ;
 
+    [SerializeField]
+    private Image tasteImage;
+    [SerializeField]
+    private GameObject qteCanvas;
     [SerializeField]
     private GameObject qte_Failed_Object; // Timelineobjekt, dass die Death Canvas einbelndet
 
-    public Image keyImage;  
-    public Sprite keySprite; // UI Bild der Taste
+    private bool isEventActive = false;
+    private bool qte_Failed;
+    private float timer = 0f;
 
+    public Sprite keySprite; // UI Bild der Taste
     public float timeLimit = 2f;  // Zeitlimit in Sekunden
     public PlayableDirector timeline;  // Die Timeline für das QTE
 
     public InputAction currentInputAction;  // Die dynamisch gesetzte Input Action
     
-    private bool isEventActive = false;
-    public bool qte_Failed = true;
-    public float timer = 0f;
-
     public FillImage fillImage;
+
+
 
     private void OnEnable()
     {
@@ -48,12 +50,20 @@ public class QuickTimeEvent : MonoBehaviour
         }
     }
 
-   
+    public void Start()
+    {
+        slowMotionOBJ = GameObject.Find("Slowmotion");
+        
+    }
+
+
+
 
     void Update()
     {
         if (isEventActive)
         {
+            //Timer des QTEs
             timer += Time.deltaTime;
 
             if (timer >= timeLimit)
@@ -65,14 +75,14 @@ public class QuickTimeEvent : MonoBehaviour
 
     public void StartQuickTimeEvent()
     {
+        //Set Values
         isEventActive = true;
         timer = 0f;
-        keyImage.sprite = keySprite;
-        
-        slowMotionOBJ.GetComponent<SlowMotion>().StartSlowMotion();
-        qteCanvas.SetActive(true);
-        boxVolume.SetActive(true);
+        tasteImage.sprite = keySprite;
 
+        slowMotionOBJ.GetComponent<SlowMotion>().StartSlowMotion();
+
+        qteCanvas.SetActive(true);
         
     }
 
@@ -86,20 +96,20 @@ public class QuickTimeEvent : MonoBehaviour
 
     private void Success()
     {
-        timeline.Play();
+        
+
         isEventActive = false;
         qteCanvas.SetActive(false);
-        boxVolume.SetActive(false);
+        
 
         slowMotionOBJ.GetComponent<SlowMotion>().EndSlowMotion();
 
         Debug.Log("Quick Time Event bestanden!");
 
+        //Reset Values
         timer = 0f;
-
         fillImage.timeRemaining = 2f;
         fillImage.fillImage.fillAmount = 0;
-
         qte_Failed = false;
     }
 
@@ -107,34 +117,20 @@ public class QuickTimeEvent : MonoBehaviour
     {
         isEventActive = false;
         qteCanvas.SetActive(false);
-        boxVolume.SetActive(false);
+        
 
         slowMotionOBJ.GetComponent<SlowMotion>().EndSlowMotion();
 
         Debug.Log("Quick Time Event nicht bestanden!");
         
-        
+        //Reset Values
         timer = 0f;
-
         fillImage.timeRemaining = 2f;
         fillImage.fillImage.fillAmount = 0;
-
         qte_Failed = true;
-        QuickTimeEventFailed();
-    }
 
-    public void OnTriggerEnter(Collider other)
-    {
-        if (other.CompareTag("Player"))
-        {
-            StartQuickTimeEvent();  
-
-
-        }
-    }
-
-    public void QuickTimeEventFailed()
-    {
+        //Aktivieren des Fail Objektes (Timeline + Death Screen)
         qte_Failed_Object.SetActive(true);
     }
+
 }
