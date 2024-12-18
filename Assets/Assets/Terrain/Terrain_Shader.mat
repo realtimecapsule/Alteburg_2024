@@ -407,7 +407,7 @@ Material:
     - _TessellationFactorMaxDistance: 50
     - _TessellationFactorMinDistance: 20
     - _TessellationFactorTriangleSize: 100
-    - _TessellationMaxDisplacement: 0.1613
+    - _TessellationMaxDisplacement: 0.19
     - _TessellationMode: 0
     - _TessellationObjMaxDisplacement: 0
     - _TessellationOffset: 0
