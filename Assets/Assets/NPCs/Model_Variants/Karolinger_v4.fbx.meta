@@ -3,7 +3,27 @@ guid: 87b8864c104e1e6478b144396f1276b7
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Eyes
+    second: {fileID: 2100000, guid: c52546166e4825a40b6102a3184a54f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Karolinger.001
+    second: {fileID: 2100000, guid: cf2dbee1a42be5648855812540019f0f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: ca3a85bfa482f3647a27d57af07c9ee9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Retopo
+    second: {fileID: 2100000, guid: 12417970c18a9e6489c4d3cfb45f8d56, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
