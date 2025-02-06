@@ -9395,7 +9395,7 @@ PrefabInstance:
     - target: {fileID: 445624861895532205, guid: 6250b8188f54e934b9b8e1f768b456d8,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -170.05634
+      value: -169.748
       objectReference: {fileID: 0}
     - target: {fileID: 445624861895532205, guid: 6250b8188f54e934b9b8e1f768b456d8,
         type: 3}
@@ -9405,7 +9405,7 @@ PrefabInstance:
     - target: {fileID: 445624861895532205, guid: 6250b8188f54e934b9b8e1f768b456d8,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -15.186843
+      value: -13.865
       objectReference: {fileID: 0}
     - target: {fileID: 445624861895532205, guid: 6250b8188f54e934b9b8e1f768b456d8,
         type: 3}
@@ -9700,7 +9700,7 @@ MonoBehaviour:
     invertFade: 0
     distanceFadeStart: 10000
     distanceFadeEnd: 10000
-    textureOffset: {x: 198.64522, y: -0, z: -0}
+    textureOffset: {x: 108.42883, y: -0, z: -0}
     falloffMode: 0
     maskMode: 0
     materialMask: {fileID: 0}
@@ -10689,7 +10689,7 @@ MonoBehaviour:
     invertFade: 0
     distanceFadeStart: 10000
     distanceFadeEnd: 10000
-    textureOffset: {x: 198.64522, y: -0, z: -0}
+    textureOffset: {x: 108.42883, y: -0, z: -0}
     falloffMode: 0
     maskMode: 0
     materialMask: {fileID: 0}
@@ -10757,7 +10757,7 @@ MonoBehaviour:
     invertFade: 0
     distanceFadeStart: 10000
     distanceFadeEnd: 10000
-    textureOffset: {x: 198.64522, y: -0, z: -0}
+    textureOffset: {x: 108.42883, y: -0, z: -0}
     falloffMode: 0
     maskMode: 0
     materialMask: {fileID: 0}
@@ -12514,7 +12514,7 @@ MonoBehaviour:
     invertFade: 0
     distanceFadeStart: 10000
     distanceFadeEnd: 10000
-    textureOffset: {x: 198.64522, y: -0, z: -0}
+    textureOffset: {x: 108.42883, y: -0, z: -0}
     falloffMode: 0
     maskMode: 0
     materialMask: {fileID: 0}
